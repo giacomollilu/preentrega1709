@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+body {
+	 background-image: url(../img/fondo.jpg);
+}
+
+main {
+	background-color: #FFFFFF;
+	max-width: 1280px;
+	max-height: 720px;
+	width: 1280px;
+	width: 90%;
+	height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	float: left;
+	background-color: #94CA4F;
+}
+
+.logo {
+	padding-left: 575px;
+	padding-top: 12px;
+}
+
+section {
+	width: 100%;
+	height: 600px;
+	background-color: #234;
+	clear: both;
+}
+
+#primero{
+	width: 40%;
+	float: left;
+	height: 600px;
+	padding-left: 95px;
+	background-color: #ffffff;
+	padding-top: 15px;
+}
+
+.me {
+	padding-left: 125px;
+	padding-top: 10px;
+}
+
+.bienvenida {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	font-weight: 500;
+	color: #0071B6;
+	padding-left: 70px;
+	padding-top: 20px;
+}      
+
+.video {
+	width: 100%;
+	height: 155px;
+	padding-left: 100px;
+	padding-right: 30px;
+}
+
+
+#segundo {
+	width: 60%;
+	float: right;
+	height: 600px;
+	background-color: #ffffff;
+	padding-left: 160px;
+	padding-right: 100px;
+	padding-top: 55px;
+}
+
+.pp {
+	column-count: 2;
+	column-gap: 66px;
+	column-rule: 3px solid #CDABEF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	font-weight: 500;
+	color: #0071B6;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16pt;
+	font-weight: 500;
+	color: #CDABEF;
+	text-shadow: 2px 2px 4px #dac3f4;
+}
+
+a img {
+	padding-right: 3px;
+	padding-top: 17px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #94CA4F;
+}
+
+#nombre {
+	float: left;
+	background-color: #94CA4F;
+	width: 50%;
+	height: 100%;
+	padding-top: 10px;
+	padding-left: 95px;
+}
+
+#uces {
+	float: right;
+	background-color: #94CA4F;
+	width: 50%;
+	height: 100%;
+	padding-top: 6px;
+	padding-left: 480px;
+}
+
+.nombre {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+}
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+body {
+	 background-image: url(../img/fondo.jpg);
+}
+
+main {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	float: left;
+	background-color: #94CA4F;
+}
+
+.logo {
+	padding-left: 240px;
+	padding-top: 12px;
+}
+
+section {
+	width: 100%;
+	height: 1240px;
+	background-color: #234;
+	clear: both;
+}
+
+#primero{
+	width: 100%;
+	height: 620px;
+	padding-left: 35px;
+	background-color: #ffffff;
+	padding-top: 15px;
+}
+
+.me {
+	padding-left: 150px;
+	padding-top: 10px;
+}
+
+.bienvenida {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	font-weight: 500;
+	color: #0071B6;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-top: 20px;
+}      
+
+.video {
+	width: 100%;
+	height: 250px;
+	padding-left: 15px;
+	padding-right: 30px;
+}
+
+
+#segundo {
+	width: 100%;
+	height: 620px;
+	background-color: #ffffff;
+	padding-left: 95px;
+	padding-right: 95px;
+	padding-top: 55px;
+}
+
+.pp {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 10pt;
+	font-weight: 500;
+	color: #0071B6;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16pt;
+	font-weight: 500;
+	color: #CDABEF;
+	text-shadow: 2px 2px 4px #dac3f4;
+	text-align: center;
+}
+
+a img {
+	padding-right: 3px;
+	padding-top: 17px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #94CA4F;
+}
+
+#nombre {
+	float: left;
+	background-color: #94CA4F;
+	width: 50%;
+	height: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#uces {
+	float: right;
+	background-color: #94CA4F;
+	width: 50%;
+	height: 100%;
+	padding-top: 6px;
+	padding-left: 40px;
+}
+
+.nombre {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+ }
